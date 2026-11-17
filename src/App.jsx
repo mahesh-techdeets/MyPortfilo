@@ -3,7 +3,7 @@ import "./App.css";
 import { Outlet } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/footer";
-import Slider from "./Components/Slider";
+// import Slider from "./Components/Slider";
 import ProductsData from "./Components/Products";
 import Projects from "./Components/Projects";
 
@@ -17,10 +17,11 @@ function App() {
         </main>
         <ProductsData />
         <Projects />
-        <Slider />
+        {/* <Slider /> */}
 
         <Footer />
       </div>
+
     </>
   );
 }

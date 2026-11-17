@@ -100,7 +100,7 @@ function PostCard({ post,darkTheme }) {
         <img
           src={post.image}
           alt={post.title}
-          className="w-full h-[220px] sm:h-[240px] md:h-[260px] lg:h-[240px] object-cover group-hover:scale-105 transition duration-500"
+          className="w-full h-[220px] sm:h-[240px] md:grid[260px] lg:h-[240px] object-cover group-hover:scale-105 transition duration-500"
         />
       </div>
       <div className="relative -mt-14 px-4">

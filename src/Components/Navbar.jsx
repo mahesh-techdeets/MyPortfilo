@@ -52,14 +52,14 @@ export default function Navbar() {
             ? "bg-black text-white"
             : "bg-gradient-to-b from-purple-900 to-purple-900 text-white"
         }`}
-        style={{ fontFamily: "Georgia"}}
+        style={{ fontFamily:"Times New Roman" }}
       >
         {" "}
         <nav
           className={`relative z-10 px-6 py-2 md:py-4 ${isDarkMode ? "bg-black text-white border-b-2 border-white" : "bg-purple-900"} bg-opacity-30 backdrop-blur-md shadow-xl `}
         >
           <div className="max-w-9xl mx-auto flex justify-between items-center">
-            <h3 className="text-3xl ">Mahesh</h3>
+            <h3 className="text-3xl">Mareedu Mahesh Babu</h3>
             <ul className="hidden md:flex space-x-9 items-center cursor-pointer">
               <li>
                 <a
@@ -75,12 +75,12 @@ export default function Navbar() {
                   onClick={() => toggleDropdown("youtube")}
                 >
                   Youtube{" "}
-                  <ChevronDown
+                  {/* <ChevronDown
                     className={`ml-4 h-4 w-4 transition-transform ${openDropdown === "youtube" ? "rotate-180" : ""}`}
-                  />
+                  /> */}
                 </button>
 
-                <ul
+                {/* <ul
                   className={`absolute left-0 mt-4 w-48 ${isDarkMode ? "bg-gray-700  " : "bg-purple-700"} rounded-lg shadow-xl py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible 
                     transition-all duration-200 pointer-events-none group-hover:pointer-events-auto ${openDropdown === "youtube" ? "!opacity-100 !visible !pointer-events-auto" : ""}`}
                 >
@@ -94,7 +94,7 @@ export default function Navbar() {
                       </a>
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </li>
               <li className="relative group">
                 <button
